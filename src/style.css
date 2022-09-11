@@ -38,7 +38,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff;
+    color:#fff;
+    background-image: linear-gradient(to bottom, #023e8a, #00579d, #006faa, #0087b4, #219ebc);
     transition: all .4s;
 }
 
@@ -79,7 +80,8 @@ body {
 .weather-sub .card {
     height: 115px;
     border: 1px solid #ccc;
-    background: #fff;
+    color:#fff;
+    background-image: linear-gradient(to bottom, #023e8a, #00579d, #006faa, #0087b4, #219ebc);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
     flex-basis: 32%;

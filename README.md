@@ -1,3 +1,3 @@
-[incelemek için tıklayınız](https://nappy-houses.surge.sh/)
+[incelemek için tıklayınız](https://hurt-pig.surge.sh)
 <br />
 ![ss](./src/ss.png)
