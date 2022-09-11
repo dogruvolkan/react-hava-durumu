@@ -35,7 +35,7 @@ const HavaDurumu = ({weather}) => {
           <p>{new Date(weather.dt *1000).toLocaleDateString()} <span>{gunler[gun]}</span> </p>
           <p>{hour}</p>
           <h1>{weather.name} <sup>{weather.sys.country}</sup></h1>
-          <img src={"http://openweathermap.org/img/w/"+weather.weather[0].icon+".png"} alt="" /> 
+          <img src={"https://openweathermap.org/img/w/"+weather.weather[0].icon+".png"} alt="" /> 
           <h2>{weather.main.temp} °C</h2>
           <h3> {weather.weather.map(data => data.description).join(", ")}</h3>
           </div>
